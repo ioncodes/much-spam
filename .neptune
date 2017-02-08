@@ -1,1 +1,4 @@
-{"env":"qt","pro":"qt/QCheck/QCheck.pro"}
+[
+{"env":"qt","pro":"qt/QCheck/QCheck.pro"},
+{"env":"mono","sln":"cs/HelloWorld/Hello World.sln"}
+]
