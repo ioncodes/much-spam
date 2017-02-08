@@ -1,9 +1,14 @@
-[
-{"env":"qt","pro":"qt/QCheck/QCheck.pro"},
-{"env":"mono","sln":"cs/HelloWorld/Hello World.sln"},
-{"env":"custom","commands":
-[
-"command":"xbuild",
-"arguments":["cs/HelloWorld/Hello World.sln"]
-]}
-]
+[{
+	"env": "qt",
+	"pro": "qt/QCheck/QCheck.pro"
+}, {
+	"env": "mono",
+	"sln": "cs/HelloWorld/Hello World.sln"
+}, {
+	"env": "custom",
+	"commands": [{
+		"command": "xbuild"
+	}, {
+		"arguments": ["cs/HelloWorld/Hello World.sln"]
+	}]
+}]
