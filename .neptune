@@ -8,6 +8,9 @@
 	"env": "custom",
 	"commands": [{
 		"command": "xbuild",
-		"arguments": ["_dirname_/cs/HelloWorld/Hello World.sln"]
+		"arguments": [{
+			"type":"path",
+			"arg":"cs/HelloWorld/Hello World.sln"
+		}]
 	}]
 }]
